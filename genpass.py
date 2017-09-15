@@ -62,5 +62,7 @@ try:
     text.close()
 
 except NameError:
+    print '*' * 17
     print 'Только цифры'
     print 'Повторите попытку'
+    print '*' * 17
